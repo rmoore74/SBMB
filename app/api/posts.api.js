@@ -1,6 +1,5 @@
 var express  = require('express');
 var router   = express.Router();
-var mongoose = require('../../config/mongoose.js');
 var Post     = require('mongoose').model('Post');
 
 router.post('/addpost', function(req, res) {

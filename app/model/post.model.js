@@ -8,4 +8,4 @@ var Post = new Schema({
     date    : Date
 });
 
-mongoose.model('Post', Post);
+module.exports = mongoose.model('Post', Post);
