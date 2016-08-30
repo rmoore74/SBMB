@@ -2,11 +2,11 @@ var express  = require('express');
 var router   = express.Router();
 var Post     = require('mongoose').model('Post');
 
-router.post('/addpost', function(req, res) {
+router.post('/add', function(req, res) {
     res.json({ 'message': 'add post temp message' });
 });
 
-router.delete('removepost', function(req, res) {
+router.delete('/remove', function(req, res) {
     res.json({ 'message': 'remove post temp message' });
 });
 
